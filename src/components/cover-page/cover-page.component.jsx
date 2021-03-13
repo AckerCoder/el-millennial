@@ -3,11 +3,11 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
-class App extends React.Component {
+class CoverPage extends React.Component {
   constructor(){
     super();
     this.state = {
-
+        
     }
   }
 
@@ -23,4 +23,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default CoverPage;

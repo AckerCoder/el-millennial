@@ -1,0 +1,12 @@
+.background-cover-page{
+    height: 100vh;
+    width: 40vw;
+    background-color: #E31212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 600px;
+    height: 500px;
+}

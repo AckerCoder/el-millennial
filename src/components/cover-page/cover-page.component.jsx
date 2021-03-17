@@ -13,7 +13,7 @@ class CoverPage extends React.Component {
 
   render(){
     return(
-      <div className="background-cover-page">
+      <div className="ly-cover-page">
           <img id="logo" src={logo} alt="Logo"/>
       </div>
     )

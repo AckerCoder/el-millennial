@@ -2,10 +2,11 @@ import React from 'react';
 
 import './main-menu-button.styles.css';
 
-const MainMenuButton = ({children, ...otherProps}) => {
+const MainMenuButton = (props) => {
     return(
-        <button className='main-menu-button' {...otherProps}>
-            {children}
+        <button className='ly-main-menu-button'>
+            <img src={props.imgDirectory} alt={props.imgAlt} onClick={props.click}/>
+            <span>{props.title}</span>
         </button>
     )
 };

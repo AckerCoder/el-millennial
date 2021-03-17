@@ -1,9 +1,9 @@
 import React from 'react';
 import CoverPage from '../../components/cover-page/cover-page.component'
-import CurrentTool from '../../components/current-tool/current-tool.component'
-import MainMenuButton from '../../components/main-menu-button/main-menu-button.component'
+import MainMenu from '../../components/main-menu/main-menu.component'
 
 import './homepage.styles.css';
+
 
 class HomePage extends React.Component {
   constructor(){
@@ -15,9 +15,9 @@ class HomePage extends React.Component {
 
   render(){
     return(
-      <div className="background-homepage">
+      <div className="ly-homepage">
         <CoverPage/>
-        <CurrentTool/>
+        <MainMenu/>
       </div>
     )
   }

@@ -4,10 +4,10 @@ import './main-menu-button.styles.css';
 
 const MainMenuButton = (props) => {
     return(
-        <button className='ly-main-menu-button'>
-            <img src={props.imgDirectory} alt={props.imgAlt} onClick={props.click}/>
+        <a className='ly-main-menu-button' href={props.click}>
+            <img src={props.imgDirectory} alt={props.imgAlt} />
             <span>{props.title}</span>
-        </button>
+        </a>
     )
 };
 

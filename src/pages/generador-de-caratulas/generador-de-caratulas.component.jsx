@@ -1,10 +1,10 @@
 import React from 'react';
 import CoverPage from '../../components/cover-page/cover-page.component'
 
-import './homepage.styles.css';
+import './generador-de-caratulas.styles.css';
 
 
-class HomePage extends React.Component {
+class GeneradorDeCaratulas extends React.Component {
   constructor(){
     super();
     this.state = {
@@ -21,4 +21,4 @@ class HomePage extends React.Component {
   }
 }
 
-export default HomePage;
+export default GeneradorDeCaratulas;

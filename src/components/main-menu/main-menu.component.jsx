@@ -16,7 +16,7 @@ class MainMenu extends React.Component{
     render(){
         return(
             <div className='ly-main-menu'>
-                <MainMenuButton title={"Generador de Caratulas"} imgDirectory={ButtonImgGeneradorDeCaratulas} imgAlt="Generador de Caratulas" click={window.location = '/generador-de-caratulas'}></MainMenuButton>
+                <MainMenuButton title={"Generador de Caratulas"} imgDirectory={ButtonImgGeneradorDeCaratulas} imgAlt="Generador de Caratulas" click='/generador-de-caratulas'></MainMenuButton>
             </div>
         )
     }
